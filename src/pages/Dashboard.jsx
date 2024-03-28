@@ -15,7 +15,6 @@ const data = [
   { title: "Nina Nebula", present: true, absent: false },
   { title: "Marina Mirage", present: false, absent: true },
   { title: "Jack Sparkles", present: false, absent: true },
-  // Add more data items as needed
 ];
 
 const Dashboard = () => {
@@ -33,11 +32,11 @@ const Dashboard = () => {
       </header>
       <section>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
-          <Widget title="Widget 1" value={12345} small />
-          <Widget title="Widget 2" value={67890} small />
-          <Widget title="Widget 3" value={54321} small />
-          <Widget title="Widget 4" value={98765} small />
-          <Widget title="Widget 5" value={24680} small/>
+          <Widget title="Widget 1" value={50} small />
+          <Widget title="Widget 2" value={70} small />
+          <Widget title="Widget 3" value={40} small />
+          <Widget title="Widget 4" value={30} small />
+          <Widget title="Widget 5" value={60} small/>
         </div>
         <div className="lg:flex gap-4 py-5 justify-between">
           <div className="w-3/5">
@@ -46,10 +45,10 @@ const Dashboard = () => {
           <Table data={data} className="w-2/5" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          <Widget title="Widget 1" value={12345} large />
-          <Widget title="Widget 2" value={67890} large />
-          <Widget title="Widget 3" value={54321} small />
-          <Widget title="Widget 4" value={98765} small />
+          <Widget title="Widget 1" value={50000} large />
+          <Widget title="Widget 2" value={120000} large />
+          <Widget title="Widget 3" value={5} small />
+          <Widget title="Widget 4" value={10} small />
         </div>
       </section>
     </div>
